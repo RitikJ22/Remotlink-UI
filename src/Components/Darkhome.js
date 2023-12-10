@@ -8,29 +8,39 @@ import abt_us1 from "../images/Rectangle 522.png";
 import abt_us2 from "../images/Rectangle 523.png";
 import Explorecard from "./Explorecard";
 import Showcard from "./Showcard";
-
+import video_pic from "../images/Rectangle 255.png";
+import circle from "../images/play-circle.svg";
 const Darkhome = () => {
   return (
     <>
-      
       <div
         className="w-[1440px] h-[757px]"
         class="background overflow-y-scroll no-scrollbar"
       >
         <div className="w-[1440px] h-[69px] border-b border-solid border-white border-opacity-20 bg-opacity-33 bg-[#16131E54] shadow-md backdrop-blur-[8px] flex flex-shrink-0 items-center justify-normal overflow-y-scroll no-scrollbar">
-        <div className="flex flex-shrink-0 items-center justify-center ml-[112px]">
-          <img className="w-[43px] h-[57.683px]" src={banr} alt="banner" />
-          <h1 className="text-white font-Lusitana text-base font-bold leading-6 w-[377px] pl-[25px]">Swargiya Dadasaheb Kalmegh Smruti Dental College & Hospital</h1>
+          <div className="flex flex-shrink-0 items-center justify-center ml-[112px]">
+            <img className="w-[43px] h-[57.683px]" src={banr} alt="banner" />
+            <h1 className="text-white font-Lusitana text-base font-bold leading-6 w-[377px] pl-[25px]">
+              Swargiya Dadasaheb Kalmegh Smruti Dental College & Hospital
+            </h1>
+          </div>
+          <div className="ml-[435px]">
+            <ul>
+              <l1 className="text-white font-AnekLatin text-base font-medium leading-normal pr-[35px]">
+                Home
+              </l1>
+              <l1 className="text-white font-AnekLatin text-base font-medium leading-normal pr-[35px]">
+                About Us
+              </l1>
+              <l1 className="text-white font-AnekLatin text-base font-medium leading-normal pr-[35px]">
+                Categories
+              </l1>
+              <l1 className="text-white font-AnekLatin text-base font-medium leading-normal pr-[35px]">
+                Featured
+              </l1>
+            </ul>
+          </div>
         </div>
-        <div className="ml-[435px]">
-          <ul>
-            <l1 className="text-white font-AnekLatin text-base font-medium leading-normal pr-[35px]" >Home</l1>
-            <l1 className="text-white font-AnekLatin text-base font-medium leading-normal pr-[35px]" >About Us</l1>
-            <l1 className="text-white font-AnekLatin text-base font-medium leading-normal pr-[35px]" >Categories</l1>
-            <l1 className="text-white font-AnekLatin text-base font-medium leading-normal pr-[35px]" >Featured</l1>
-          </ul>
-        </div>
-      </div>
         <div className="pt-[150px] flex flex-shrink-0  items-center justify-normal ml-[93px]">
           <img src={library_cover} alt="library cover" />
           <div className="flex flex-shrink-0  items-center justify-normal relative right-56">
@@ -55,12 +65,16 @@ const Darkhome = () => {
         </div>
       </div>
 
-      <div className="w-[1440px] h-[5121px] bg-[#06040E] ">
-        <div className="flex items-start justify-center">
-          <button>About Us</button>
-          <div>
-            <h1>Quality Practical Medical Education</h1>
-            <p>
+      <div className="w-[1440px] h-[3771px] bg-[#06040E] ">
+        <div className="flex items-start justify-center flex-col ml-[93px] pt-[72px]">
+          <button className="flex items-center justify-center w-[82px] h-[26px] p-4 gap-2 flex-shrink-0 border rounded-[5px] border-solid border-white border-opacity-10 text-[#AE9F0F] text-right font-AnekLatin text-xs font-medium leading-5 capitalize">
+            About Us
+          </button>
+          <div className="flex flex-shrink-0 items-center justify-between mt-[28px]">
+            <h1 className="w-[576px] text-[#DBDBDB] font-Lusitana  uppercasetext-gray-300  text-5xl font-bold leading-normal tracking-tight uppercase">
+              Quality Practical Medical Education
+            </h1>
+            <p className="w-[651px] text-white font-AnekLatin text-base font-medium leading-8">
               Dvirtual Library (DVL) is a leading digital resource hub dedicated
               to empowering excellence in medical education and research. With a
               rich history of serving the community, DVL provides access to a
@@ -69,22 +83,40 @@ const Darkhome = () => {
               sciences, engineering, management, and more .
             </p>
           </div>
-          <div>
-            <img src={abt_us1} alt="syringe pic"/>
-            <img src={abt_us2} alt="dental checkup"/>
+          <div className="flex flex-shrink-0 items-center justify-between mt-[103px]">
+            <img
+              className="w-[465px] h-[284px] rounded-[5px] pr-3"
+              src={abt_us1}
+              alt="syringe pic"
+            />
+            <img
+              className="w-[774px] h-[284px] rounded-[5px]"
+              src={abt_us2}
+              alt="dental checkup"
+            />
           </div>
         </div>
-        <div>
-          <button>Statistis</button>
-          <div>
-            <h1>Access to Various resources</h1>
-            <p>Dvirtual Library (DVL) is a leading digital resource hub dedicated to empowering excellence in medical education and research. With a rich history of serving the </p>
+        <div className="flex flex-shrink-0 flex-col items-center justify-center mt-[39px]">
+          <button className="flex items-center justify-center w-[82px] h-[26px] p-4 gap-2 flex-shrink-0 border rounded-[5px] border-solid border-white border-opacity-10 text-[#AE9F0F] text-right font-AnekLatin text-xs font-medium leading-5 capitalize">
+            Statistis
+          </button>
+          <div className="flex flex-shrink-0 flex-col items-center justify-center mt-[28px] gap-5">
+            <h1 className="w-[679px] text-gray-300 font-Lusitana text-5xl font-bold  leading-normal tracking-tight capitalize pl-12 ">
+              Access to Various resources
+            </h1>
+            <p className="w-[808px] text-white text-opacity-60 text-center font-AnekLatin text-base font-medium leading-8 ">
+              Dvirtual Library (DVL) is a leading digital resource hub dedicated
+              to empowering excellence in medical education and research. With a
+              rich history of serving the{" "}
+            </p>
           </div>
-          <div>
-            <Showcard/>
-            <Showcard/>
-            <Showcard/>
-            <Showcard/>
+          <div className="flex flex-shrink-0 items-center flex-wrap mt-[12px] mb-[24px] justify-center">
+            <Showcard heading="500+ Journals" />
+            <Showcard heading="250+ ebooks" />
+            <Showcard heading="80+ Videos" />
+            <Showcard heading="50+ Subjects" />
+            <Showcard heading="200 Databases" />
+            <Showcard heading="100 E-Resource" />
           </div>
         </div>
         <div className="w-[1440px] h-[817px] border border-solid border-white border-opacity-20 bg-[#0E0D0F] flex flex-shrink-0 flex-col  justify-evenly">
@@ -125,7 +157,7 @@ const Darkhome = () => {
             <Explorecard />
           </div>
         </div>
-        <div className="w-[1545px] h-[817px] border border-solid border-blue-500 border-opacity-20 bg-[#0E0D0F] flex flex-shrink-0 flex-col  justify-evenly mt-[42px]">
+        <div className="w-[1440px] h-[817px] border border-solid border-blue-500 border-opacity-20 bg-[#0E0D0F] flex flex-shrink-0 flex-col  justify-evenly mt-[42px]">
           <div className="flex flex-shrink-0 flex-col items-start justify-center  rounded-5 ml-[92px] mt-[42px] gap-5">
             <button className="w-[82px] h-[26px]  flex-shrink-0 rounded-5 border border-solid border-white border-opacity-10 text-gray-300 text-right font-AnekLatin text-xs font-medium leading-5 capitalize rounded-[5px] pr-4">
               Featured
@@ -176,6 +208,27 @@ const Darkhome = () => {
             <Explorecard />
             <Explorecard />
             <Explorecard />
+          </div>
+        </div>
+
+        <div className="flex flex-shrink-0 items-center justify-normal mt-[89px]">
+          <div className="flex flex-shrink-0  flex-col items-start justify-center ml-[93px] ">
+            <button className="flex flex-col items-center justify-center w-[82px] h-[26px] p-4 flex-shrink-0 border border-solid border-white border-opacity-10 rounded-md text-right text-[#DBDBDB] font-AnekLatin text-xs font-medium leading-5 tracking-wide uppercase">Video</button>
+            <h1 className="w-[576px] pt-[28px] text-gray-300 font-Lusitana text-5xl font-bold leading-normal tracking-wider capitalize">Watch this video to know more</h1>
+            <p className="w-[578px] text-white text-opacity-60 font-AnekLatin text-base font-medium leading-8 pt-4">
+              Embark on a journey through our Digital Library by watching our
+              informative video. Dive into the world of knowledge, where you can
+              explore a treasure trove of resources in various categories.
+              Discover our commitment to academic excellence and research
+              through this engaging visual tour. Join us in this virtual
+              adventure, and get a glimpse of the extensive resources and
+              exciting possibilities that await you. Watch the video to know
+              more and start your exploration today!
+            </p>
+          </div>
+          <div className="mt-5 ml-[91px]">
+            <img src={video_pic} alt="video icon" />
+            <img className="relative bottom-[238px] left-[254px]" src={circle} alt="circle icon" />
           </div>
         </div>
       </div>
