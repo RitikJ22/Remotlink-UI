@@ -10,7 +10,7 @@ import user_pic from "../images/photo.svg";
 const Header = () => {
   return (
     <>
-      <div className="w-full h-[35px] bg-blue-900 flex items-center justify-evenly">
+      <div className="w-[1440px] h-[35px] bg-blue-900 flex items-center justify-evenly">
         <p className="text-white font-inter text-[13px] font-medium  font-inter  ">
           8 positieve podcasts om je door{" "}
           <span className="underline">2021 te slepen - Harper's …</span>
@@ -24,7 +24,7 @@ const Header = () => {
           <span className="underline">2021 te slepen - Harper's …</span>
         </p>
       </div>
-      <div className="flex justify-between flex-shrink-0 items-center border-r border-solid border-blue-500 border-opacity-10 bg-white shadow-md h-[71px] w-full">
+      <div className="flex justify-between flex-shrink-0 items-center border-r border-solid border-blue-500 border-opacity-10 bg-white shadow-md h-[71px] w-[1440px]">
         <div className="flex pl-[56px] pr-[12px]">
           <img
             src={logo}

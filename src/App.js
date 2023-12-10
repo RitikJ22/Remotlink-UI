@@ -1,19 +1,20 @@
+import React from "react";
+import Home from "./Components/Home";
 import Header from "./Components/Header";
 import Sidebar from "./Components/Sidebar";
-import Home from "./Components/Home";
 import Footer from "./Components/Footer";
+import { Outlet } from "react-router-dom";
 
-function App() {
+
+const AppLayout = () => {
   return (
     <>
-      <div className=" no-scrollbar">
-        <Header />
-        <Sidebar />
-        <Home />
-        <Footer />
-      </div>
+     <Header />
+      <Sidebar />
+      <Footer />
     </>
   );
-}
+};
 
-export default App;
+
+export default AppLayout;

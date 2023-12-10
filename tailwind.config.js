@@ -4,7 +4,15 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        AnekLatin: ["Anek Latin", "sans-serif"],
+        Lusitana: ["Lusitana", "serif"],
+        Poppins: ["Poppins", "serif"]
+    }
+   
+    
+  }
   },
   plugins: [],
 }

@@ -10,25 +10,25 @@ import btn_icon from "../images/Group 427318227.svg";
 const Footer = () => {
   return (
     <>
-      <div className="w-fulll h-[502px] bg-[#3674CB] ">
+      <div className="w-[1440px] h-[502px] bg-[#3674CB] ">
         <div className="flex flex-shrink-0 justify-normal items-center text-white pt-[108px]  pl-[160px] ">
           <ul className="flex flex-shrink-0 items-start justify-between flex-col">
             <li>
               <div className="w-[57.161px] h-[76.68px] rounded-md bg-white p-4"></div>
             </li>
-            <li className="w-[378px] text-white font-poppins font-bold text-[18px] leading-10 uppercase pt-[35px] pb-[10px]">
+            <li className="w-[378px] text-white font-Poppins font-bold text-[18px] leading-10 uppercase pt-[35px] pb-[10px]">
               Indian Institute of Technology Bombay
             </li>
-            <li className="text-white font-poppins font-medium text-[16px] leading-8 ">
-              <span className="underline w-[326px] h-2">
+            <li className="text-white font-Poppins font-medium text-[16px] leading-8 ">
+              
                 Official Institute Library to access Digital
-              </span>{" "}
+                <div className='w-[326px] h-[2px] bg-[#AE9F0F]'></div>
               material
             </li>
           </ul>
 
           <div className="flex items-start justify-between flex-col w-[272px] ml-[90px]">
-            <h1 className="w-[77.714px] text-white font-poppins font-semibold text-base uppercase">
+            <h1 className="w-[77.714px] text-white font-Poppins font-semibold text-base uppercase">
               Address
             </h1>
             <ul className="flex flex-shrink-0 items-start justify-between flex-col">
@@ -49,7 +49,7 @@ const Footer = () => {
           </div>
 
           <div className="flex items-start justify-stretch flex-col  w-[100px] h-[250px] ml-[20px] ">
-            <h1 className=" text-white font-poppins font-semibold text-base uppercase">
+            <h1 className=" text-white font-Poppins font-semibold text-base uppercase">
               Quick Links
             </h1>
             <ul className="flex flex-shrink-0 items-start justify-between flex-col pt-[19px]">
@@ -62,7 +62,7 @@ const Footer = () => {
           </div>
 
           <div className="flex items-start justify-between flex-col  w-[100px] h-[250px] ml-[93px]">
-            <h1 className=" text-white font-poppins font-semibold text-base uppercase">
+            <h1 className=" text-white font-Poppins font-semibold text-base uppercase">
               Categories
             </h1>
             <ul className="flex flex-shrink-0 items-start justify-between flex-col pt-[19px]">
@@ -77,30 +77,30 @@ const Footer = () => {
 
           <div className="relative top-[200px] right-[40px]">
             <img src={btn_icon} alt="Back top icon" className="" />
-            <h1 className="text-white font-poppins text-base relative bottom-[33px] left-[15px]">
+            <h1 className="text-white font-Poppins text-base relative bottom-[33px] left-[9px]">
               {" "}
               Back to Top
             </h1>
           </div>
         </div>
       </div>
-      <div className="w-full h-[117px] bg-[#0B3775] flex flex-shrink-0 text-white justify-normal items-center fill-white">
+      <div className="w-[1440px] h-[117px] bg-[#0B3775] flex flex-shrink-0 text-white justify-normal items-center fill-white">
         <div className="flex flex-shrink-0 text-white justify-between  items-center ml-[144px]">
           <img
             className="w-[95.308px] h-[59px] rounded-md white"
             src={footer_logo}
             alt=" "
           />
-          <h1 className="text-white font-poppins font-medium text-[15px] leading-5 pl-[20px]">
+          <h1 className="text-white font-Poppins font-medium text-[15px] leading-5 pl-[20px]">
             {" "}
             Powered By Remotlink - All Rights Reserved
           </h1>
         </div>
         <div className="flex flex-shrink-0 text-white justify-between  items-center ml-[105px] ">
-          <h1 className="text-white font-poppins font-medium text-[15px] leading-5 font-feature ">
+          <h1 className="text-white font-Poppins font-medium text-[15px] leading-5 font-feature ">
             Privacy Policy
           </h1>
-          <h1 className="text-white font-poppins font-medium text-[15px] leading-6 font-feature  pl-[28px]  ">
+          <h1 className="text-white font-Poppins font-medium text-[15px] leading-6 font-feature  pl-[28px]  ">
             Terms and Conditions
           </h1>
         </div>
