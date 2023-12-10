@@ -11,7 +11,7 @@ import banr from "../images/948b3ad28ed67e63c760b2ae2c01e709.png"
 const Darkfooter = () => {
   return (
     <>
-    <div className="w-[1440px] h-[502px] bg-[#26222E] ">
+    <div className="w-[1440px] h-[502px] bg-[#26222E] overflow-y-scroll no-scrollbar ">
       <div className="flex flex-shrink-0 justify-normal items-center text-white pt-[108px]  pl-[160px] ">
         <ul className="flex flex-shrink-0 items-start justify-between flex-col">
           <li>
@@ -86,7 +86,7 @@ const Darkfooter = () => {
         </div>
       </div>
     </div>
-    <div className="w-[1440px] h-[117px] bg-[#1F1B25] flex flex-shrink-0 text-white justify-normal items-center fill-white">
+    <div className="w-[1440px] h-[117px] bg-[#1F1B25] flex flex-shrink-0 text-white justify-normal items-center fill-white overflow-y-scroll no-scrollbar">
       <div className="flex flex-shrink-0 text-white justify-between  items-center ml-[144px]">
         <img
           className="w-[95.308px] h-[59px] rounded-md white"
