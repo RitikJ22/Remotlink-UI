@@ -11,11 +11,13 @@
 
   .background{
     background-image: url(./images/Rectangle\ 1.png) ;
-    width: 1440px;
+    width: 100%;
     height: 756px;
     /* position: relative;
     bottom: 69px; */
     z-index: -1;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
   }
 
@@ -30,5 +32,56 @@
         scrollbar-width: none;  /* Firefox */
   }
 }
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.bg-pic{
+  background-image: url("./images/Group 3247.svg");
+  background-size: 100% 100%;
+}
+
+.light .light\:bg-pic-light {
+  background-image: url("./images/Group 32.svg");
+  background-size: 100% 100%;
+}
+
+.purple .purple\:bg-pic-purple {
+  background-image: url("./images/Group 324.svg");
+  background-size: 100% 100%;
+}
+
+
+.logo-pic{
+  background-image: url("./images/948b3ad28ed67e63c760b2ae2c01e709.png");
+  background-size: 100% 100%;
+}
+
+.purple .purple\:logo-pic-purple {
+  background-image: url("./images/Group 2326.svg");
+  background-size: 100% 100%;
+
+}
+
+.ellipse-icon{
+ background-image: url("./images/Ellipse 99.svg");
+  background-size: 100% 100%;
+}
+
+.search-icon{
+  background-image: url("./images/magnifying-glass.svg");
+  background-size: 100% 100%;
+}
+
+.purple .purple\:search-icon-purple {
+  background-image: url("./images/magnifying-glass-purple.svg");
+  background-size: 100% 100%;
+  width: fit-content;
+
+}
+
+
+
 
   

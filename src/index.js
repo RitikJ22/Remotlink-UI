@@ -4,16 +4,17 @@ import './index.css';
 import AppLayout from './App';
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Darklayout from './Components/Darklayout';
-
+import Landinglayout from './Components/Landingpage/Landinglayout';
 
 
 const appRouter = createBrowserRouter([
   {
     path: '/',
-    element:<Darklayout/>
+    element:<Landinglayout/>
 
   },
+ 
+  
   {
     path: '/Home',
     element:<AppLayout/>
