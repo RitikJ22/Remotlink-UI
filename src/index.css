@@ -21,6 +21,7 @@
     background-repeat: no-repeat;
 
     @media(min-width:1024px){
+      width:auto;
       height: 756px;
     }
   }
@@ -108,7 +109,7 @@
 .bg-pic{
   background-image: url("./images/Group 3247.svg");
   background-size: 100% 100%;
-  width: 256px;
+  min-width: 256px;
   height: 57px;
   background-size: cover;
     background-position: center;
@@ -118,11 +119,21 @@
 .light .light\:bg-pic-light {
   background-image: url("./images/Group 32.svg");
   background-size: 100% 100%;
+  width: 256px;
+  height: 57px;
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .purple .purple\:bg-pic-purple {
   background-image: url("./images/Group 324.svg");
   background-size: 100% 100%;
+  min-width: 256px;
+  height: 57px;
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
@@ -152,6 +163,10 @@
   background-size: 100% 100%;
   width: fit-content;
 
+}
+
+.hover\:shadow-md:hover {
+  box-shadow: 0 4px 6px -1px rgba(255, 106, 106, 0.1), 0 2px 4px -1px rgba(255, 106, 106, 0.06);
 }
 
 

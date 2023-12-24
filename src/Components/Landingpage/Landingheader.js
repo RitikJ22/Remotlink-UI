@@ -7,13 +7,13 @@ import { Link } from "react-router-dom";
 const Landingheader = () => {
   return (
     <>
-      <div className="w-full h-[52px]  bg-[#1F1B25] light:bg-secondary flex  items-center justify-between overflow-y-scroll no-scrollbar">
+      <div className="w-full min-h-[52px]  bg-[#1F1B25] light:bg-secondary flex  items-center justify-between overflow-y-scroll no-scrollbar">
         <div className=" flex  items-center justify-center ml-6  md:max-xl:ml-16 xl:ml-32"  >
           <h1>👋</h1>
           <h1 className="hidden lg:block  text-white font-AnekLatin light:font-Outfit purple:font-Sora text-base purple:text-[14px] font-normal leading-normal whitespace-nowrap">
             Hello Visitor , Please Login To Access The Library
           </h1>
-          <h1 className="lg:hidden text-white font-AnekLatin light:font-Outfit purple:font-Sora text-base purple:text-[14px] font-normal leading-normal whitespace-nowrap">
+          <h1 className="lg:hidden text-white font-AnekLatin light:font-Outfit purple:font-Sora text-base purple:text-[14px] font-normal leading-normal min-[400px]:whitespace-nowrap">
             Hello Visitor , Please Login...
           </h1>
           

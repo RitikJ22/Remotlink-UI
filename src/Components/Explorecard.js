@@ -119,7 +119,7 @@ const Explorecard = (props) => {
           .fill("")
           .map((e, index) => (
             <div
-              className={`${classes}  light:bg-[#FFFFFF] purple:bg-[#FFFFFF]`}
+              className={`${classes}  light:bg-[#FFFFFF] purple:bg-[#FFFFFF]  hover:scale-105`}
             >
               <img
                 className="w-[301px] h-[161px] mt-[6px] purple:mt-0 ml-1 purple:ml-0  rounded-5 border border-solid  border-black border-opacity-10 bg-cover bg-center relative"
