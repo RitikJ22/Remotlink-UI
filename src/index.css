@@ -12,13 +12,17 @@
   .background{
     background-image: url(./images/Rectangle\ 1.png) ;
     width: 100%;
-    height: 756px;
+    height: 1019px;
     /* position: relative;
     bottom: 69px; */
     z-index: -1;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
+    @media(min-width:1024px){
+      height: 756px;
+    }
   }
 
   @layer utilities {
@@ -33,6 +37,70 @@
   }
 }
 
+.slick-slide > div{
+  margin: 0 10px;
+}
+
+.slick-next:before {
+  content:'' !important;
+}
+
+.slick-prev:before {
+  content: '' !important;
+}
+
+.slick-next {
+  
+
+  @media(min-width:768px) {
+    right: 0%  !important;
+  top:-18% !important;
+  }
+
+  @media(max-width:767px ){
+    top: 102% !important;
+    right: 40%  !important;
+  }
+
+  @media(max-width:450px ){
+    top: 102% !important;
+    right: 30%  !important;
+  }
+  
+}
+.slick-prev {
+ 
+  @media(min-width:1280px ){
+    left: 92% !important;
+    top:-12% !important;
+  }
+
+  @media(max-width:1280px ){
+    left: 90% !important;
+    top:-12% !important;
+  }
+
+  @media(min-width:768px ){
+    left: 86% !important;
+    top:-12% !important;
+  }
+  
+  @media(max-width:767px ){
+    top: 108% !important;
+    left: 40% !important;
+  }
+
+  @media(max-width:560px ){
+    top: 108% !important;
+    left: 36% !important;
+  }
+
+ 
+  
+
+
+}
+
 .dropdown:hover .dropdown-menu {
   display: block;
 }
@@ -40,6 +108,11 @@
 .bg-pic{
   background-image: url("./images/Group 3247.svg");
   background-size: 100% 100%;
+  width: 256px;
+  height: 57px;
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .light .light\:bg-pic-light {
