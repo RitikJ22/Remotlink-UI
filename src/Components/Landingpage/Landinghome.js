@@ -78,10 +78,10 @@ const Landinghome = () => {
             </div>
           </div>
           <div className="z-10 relative ml-6  min-[480px]:ml-12 md:ml-24  ">
-            <h1 className="w-11/12 sm:w-3/4 xl:w-[992px]  purple:w-11/12 purple:sm:w-2/3 purple:xl:w-[725px] text-white font-Lusitana  light:font-SourceSans purple:font-Sora  text-5xl purple:text-[35px] font-bold leading-[68px] capitalize   mt-3">
+            <h1 className="w-11/12 sm:w-3/4 xl:w-[992px]  purple:w-11/12 purple:sm:w-2/3 purple:xl:w-[725px] text-white font-Lusitana  light:font-SourceSans purple:font-Sora text-5xl max-[445px]:text-[40px] purple:text-[35px] font-bold leading-[68px] capitalize  mt-3 ">
               Swargiya Dadasaheb Kalmegh Smruti Dental College & Hospital
             </h1>
-            <h1 className="w-3/4 lg:w-[992px] purple:w-3/4 purple:xl:w-[692px]  mt-3 purple:mt-5 text-white font-Lusitana purple:font-Sora  light:font-SourceSans light:italic text-[21px] purple:text-[18px] font-bold leading-20 capitalize">
+            <h1 className="w-3/4 lg:w-[992px] purple:w-3/4 purple:xl:w-[692px]  mt-3 purple:mt-5 text-white font-Lusitana purple:font-Sora  light:font-SourceSans light:italic text-[21px] purple:text-[18px] font-bold leading-20 capitalize ">
               Your gateway to a world of Dental information and research
               resources.
             </h1>
@@ -101,7 +101,7 @@ const Landinghome = () => {
         <div className="hidden purple:block">
           <div className=" flex    items-center justify-center bg-[#3D1766] w-full h-full flex-wrap gap-10 max-[955px]:pt-10">
             <div className="ml-6">
-              <h1 className="text-white w-11/12 sm:w-[408px] min-[1211px]:w-[664px] font-feature-settings-[clig-off liga-off] font-Sora text-[32px]  font-bold leading-56 capitalize">
+              <h1 className="text-white w-11/12 sm:w-[408px] min-[1211px]:w-[664px] font-feature-settings-[clig-off liga-off] font-Sora max-[410px]:text-[28px]  text-[32px]  font-bold leading-56 capitalize">
                 Our Commitment to Academic Excellence
               </h1>
               <p className="text-white  w-11/12 sm:w-[408px] min-[1211px]:w-[539px] font-feature-settings-[clig-off liga-off] font-Sora text-[16px] opacity-60  font-light leading-32 capitalize pt-8">
@@ -129,7 +129,7 @@ const Landinghome = () => {
             </button>
           </div>
           <div className="flex  items-center justify-center min-[1331px]:justify-between mt-[28px] mx-2 flex-wrap gap-5">
-            <h1 className="w-11/12 sm:w-[576px]  text-[#DBDBDB] light:text-[#000000] font-Lusitana light:font-SourceSans purple:font-Sora  uppercasetext-gray-300 text-4xl   sm:text-5xl  font-bold leading-normal tracking-tight ">
+            <h1 className="w-11/12 sm:w-[576px] min-w-[305px] text-[#DBDBDB] light:text-[#000000] font-Lusitana light:font-SourceSans purple:font-Sora  uppercasetext-gray-300 text-4xl   sm:text-5xl  font-bold leading-normal tracking-tight max-[1263px]:text-center ">
               Quality Practical Medical Education
             </h1>
             <p className="w-11/12 md:w-[651px] text-white light:text-[#00000099] light:text-opacity-60 font-AnekLatin  light:font-S text-base font-medium leading-8 min-xl:text-center">
@@ -161,7 +161,7 @@ const Landinghome = () => {
             </button>
           </div>
           <div className="flex  flex-col items-center justify-center mt-[28px] gap-5">
-            <h1 className="w-11/12 sm:w-[679px] text-center  text-gray-300 light:text-black purple:text-secondary font-Lusitana light:font-SourceSans purple:font-Sora text-5xl purple:text-4xl font-bold  leading-normal tracking-tight capitalize  ">
+            <h1 className="w-11/12 sm:w-[679px] text-center  text-gray-300 light:text-black purple:text-secondary font-Lusitana light:font-SourceSans purple:font-Sora max-[440px]:text-[40px] text-5xl purple:text-4xl font-bold  leading-normal tracking-tight capitalize  ">
               Access to Various resources
             </h1>
             <p className="w-11/12 sm:w-[320px] sm:max-lg:w-[540px] lg:w-[808px] text-white light:text-[#00000099] purple:text-[#696969] text-opacity-60 text-center font-AnekLatin light:font-SourceSans purple:font-Sora text-base font-medium leading-8 ">
@@ -234,7 +234,7 @@ const Landinghome = () => {
                 Categories
               </button>
             </div>
-            <h1 className="text-gray-300 light:text-black purple:text-white font-Lusitana light:font-SourceSans purple:font-Sora text-4xl light:text-5xl purple:text-[32px] font-bold leading-normal tracking-wide capitalize">
+            <h1 className="text-gray-300 light:text-black purple:text-white font-Lusitana light:font-SourceSans purple:font-Sora text-4xl light:text-4xl light:sm:text-5xl purple:text-[32px] font-bold leading-normal tracking-wide capitalize">
               Categorical Resources
             </h1>
             <h3 className="text-[#FFFFFF99] light:text-[#00000099] purple:hidden  font-AnekLatin light:font-SourceSans text-base font-medium leading-8">
@@ -282,7 +282,7 @@ const Landinghome = () => {
                 Featured
               </button>
             </div>
-            <h1 className="text-gray-300 light:text-black purple:text-white  font-Lusitana light:font-SourceSans purple:font-Sora text-4xl light:text-5xl purple:text-[32px] font-bold leading-normal tracking-wide capitalize">
+            <h1 className="text-gray-300 light:text-black purple:text-white  font-Lusitana light:font-SourceSans purple:font-Sora text-4xl light:text-4xl light:sm:text-5xl purple:text-[32px] font-bold leading-normal tracking-wide capitalize">
               Featured Resources
             </h1>
             <h3 className="text-[#FFFFFF99] light:text-[#00000099] font-AnekLatin light:font-SourceSans text-base font-medium leading-8 purple:hidden">
@@ -330,7 +330,7 @@ const Landinghome = () => {
                 Video
               </button>
             </div>
-            <h1 className="w-11/12 sm:w-[576px] pt-[28px] text-gray-300 light:text-black purple:text-secondary font-Lusitana light:font-SourceSans purple:font-Sora text-6xl purple:text-[32px] font-bold leading-snug tracking-tight capitalize">
+            <h1 className="w-11/12 sm:w-[576px] pt-[28px] text-gray-300 light:text-black purple:text-secondary font-Lusitana light:font-SourceSans purple:font-Sora text-4xl sm:text-6xl purple:text-[32px] font-bold leading-snug tracking-tight capitalize">
               Watch this video to know more
             </h1>
             <p className="w-11/12 sm:w-[578px] text-white light:text-[#00000099] purple:text-[#696969] text-opacity-60 font-AnekLatin light:font-SourceSans purple:font-Sora text-base font-medium leading-8 pt-4">
