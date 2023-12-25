@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState,useEffect}from "react";
 import footer_logo from "../images/d725dac3fdc6eba7ecd06d67942e90e8.png";
 import facebook_icon from "../images/facebook.svg";
 import linkedin_icon from "../images/linkedin.svg";
@@ -8,6 +8,27 @@ import Elipse from "../images/Ellipse 24.svg";
 import btn_icon from "../images/Group 427318227.svg";
 
 const Footer = () => {
+  const [isVisible, setIsVisible] = useState(false);
+  
+    useEffect(() => {
+      // Add a scroll event listener to show/hide the button
+      const handleScroll = () => {
+        const scrollY = window.scrollY;
+        const threshold = 300; // You can adjust this threshold
+  
+        setIsVisible(scrollY > threshold);
+      };
+  
+      window.addEventListener('scroll', handleScroll);
+  
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }, []);
+  
+    const handleBackToTop = () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
   return (
     <>
       <div className="w-[1440px] h-[502px] bg-[#3674CB] ">
@@ -75,13 +96,14 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="relative top-[200px] right-[40px]">
+          <button className="relative top-[200px] right-[40px]"
+           onClick={handleBackToTop}>
             <img src={btn_icon} alt="Back top icon" className="" />
-            <h1 className="text-white font-Poppins text-base relative bottom-[33px] left-[9px]">
+            <h1 className="text-white font-Poppins text-base relative bottom-[33px] ">
               {" "}
               Back to Top
             </h1>
-          </div>
+          </button>
         </div>
       </div>
       <div className="w-[1440px] h-[117px] bg-[#0B3775] flex flex-shrink-0 text-white justify-normal items-center fill-white">
