@@ -19,14 +19,17 @@ const Landingheader = () => {
           
         </div>
         <div className="flex items-center justify-center">
+        <Link to={"Home"}>
         <div className=" w-16 lg:w-36 h-[52px] bg-[#000000] light:bg-btn flex  items-center justify-center mr-3 md:mr-1 hover:bg-[#0B2E78] focus:ring-4 focus:outline-none focus:ring-blue-300   ">
+        
           <img src={lgn_icon} alt="login icon" />
-          <Link to={"Home"}>
+          
             <h1 className="hidden lg:block text-white font-AnekLatin light:font-Outfit purple:font-Sora text-base purple:text-[13px] font-normal leading-5 capitalize ml-3 whitespace-nowrap ">
               Login Now
             </h1>
-          </Link>
+          
         </div>
+        </Link>
 
         <div className="w-12 lg:w-44 h-[52px] bg-[#000000] light:bg-btn flex  items-center justify-center mr-6 md:mr-20 hover:bg-[#0B2E78] focus:ring-4 focus:outline-none focus:ring-blue-300">
           <img src={anmnt_icon} alt="Announcements icon" />

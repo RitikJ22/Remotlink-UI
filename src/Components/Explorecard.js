@@ -3,10 +3,17 @@ import card_img from "../images/Rectangle 517.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+//import { tw } from 'twind';
 import arrow from "../images/bi_arrow-left-short.svg";
 
 function CustomPrevArrow(props) {
   const { className, style, onClick } = props;
+   // Check if the light theme is active
+   //const isLightTheme = tw`text-white bg-black`;
+
+   // Choose the appropriate arrow image based on the light theme
+   //const arrowImage = isLightTheme ? arrowLight : arrowDark;
+
   return (
     <div
       className={className}
@@ -38,7 +45,8 @@ function CustomNextArrow(props) {
         backgroundRepeat: "no-repeat",
         height: "50px",
         width: "50px",
-        transform: 'rotate(180deg)'
+        transform: 'rotate(180deg)',
+
       }}
       onClick={onClick}
     />
@@ -61,7 +69,7 @@ const Explorecard = (props) => {
     slidesToShow: 8,
     slidesToScroll: 1,
     draggable: true,
-    nextArrow: <CustomNextArrow />,
+    nextArrow: <CustomNextArrow  />,
     prevArrow: <CustomPrevArrow />,
     responsive: [
       {
@@ -111,7 +119,7 @@ const Explorecard = (props) => {
   const classes = ` w-[312px] max-w-[312px] h-[417px]   rounded-5 border border-solid border-blue-700 border-opacity-10  shadow-lg flex  flex-col items-start justify-normal bg-[#23222A] `;
   const classes1 = `w-[288px] h-[98px] pt-5 pl-4  text-[#F9F9FF] font-Lusitana text-xl font-bold leading-7 tracking-wider capitalize`;
   const classes2 = `w-[253px] h-[66px] p-4  text-white font-AnekLatin text-base font-medium leading-7`;
-  const classes3 = `text-[#DBDBDB] mt-4 ml-4 font-AnekLatin text-base font-medium leading-5 capitalize flex items-center justify-center w-[86px] h-[34px]  gap-2  rounded-[5px] border border-solid border-white border-opacity-11 px-6 py-4`;
+  const classes3 = `text-[#DBDBDB] mt-4 ml-4 font-AnekLatin  font-medium leading-5 capitalize flex items-center justify-center w-[86px] h-[34px]  gap-2  rounded-[5px] border border-solid border-white border-opacity-11 px-6 py-4`;
   return (
     <div className="w-11/12 m-auto items-center max-md:mb-12  ">
       <Slider {...settings}>
@@ -128,18 +136,18 @@ const Explorecard = (props) => {
               />
 
               <h1
-                className={`${classes1} light:text-black purple:text-secondary light:font-FiraSans purple:font-Sora purple:text-[19px]`}
+                className={`${classes1} light:text-black purple:text-secondary light:font-FiraSans purple:font-Sora purple:text-[19px] light:tracking-tight`}
               >
                 The Influence on Medical Activities by Mobile Medical
                 Application
               </h1>
               <h1
-                className={`${classes2} light:text-black purple:text-black light:font-SourceSans purple:font-Sora purple:text-[13px]`}
+                className={`${classes2} light:text-black purple:text-black light:font-SourceSans purple:font-Sora text-base purple:text-[13px] light:text-sm`}
               >
                 Year: 2018 | Conference Paper | Publisher: IEEE
               </h1>
               <button
-                className={`${classes3} purple:mt-6 purple:border-opacity-20 light:text-black purple:text-black light:font-FiraSans  purple:font-Sora light:border-black  purple:border-black`}
+                className={`${classes3} purple:mt-6 purple:border-opacity-20 light:text-black purple:text-black light:font-FiraSans  purple:font-Sora light:border-black  purple:border-black light:text-sm`}
               >
                 Explore
               </button>

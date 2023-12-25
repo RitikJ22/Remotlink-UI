@@ -128,11 +128,11 @@ const Landinghome = () => {
               About Us
             </button>
           </div>
-          <div className="flex  items-center justify-center min-[1331px]:justify-between mt-[28px] mx-2 flex-wrap">
-            <h1 className="w-11/12 sm:w-[576px] text-center text-[#DBDBDB] light:text-[#000000] font-Lusitana  light:font-SourceSans  uppercasetext-gray-300 text-4xl sm:text-5xl font-bold leading-normal tracking-tight uppercase">
+          <div className="flex  items-center justify-center min-[1331px]:justify-between mt-[28px] mx-2 flex-wrap gap-5">
+            <h1 className="w-11/12 sm:w-[576px]  text-[#DBDBDB] light:text-[#000000] font-Lusitana light:font-SourceSans purple:font-Sora  uppercasetext-gray-300 text-4xl   sm:text-5xl  font-bold leading-normal tracking-tight ">
               Quality Practical Medical Education
             </h1>
-            <p className="w-11/12 md:w-[651px] text-white light:text-[#00000099] light:text-opacity-60 font-AnekLatin  light:font-SourceSans text-base font-medium leading-8">
+            <p className="w-11/12 md:w-[651px] text-white light:text-[#00000099] light:text-opacity-60 font-AnekLatin  light:font-S text-base font-medium leading-8 min-xl:text-center">
               Dvirtual Library (DVL) is a leading digital resource hub dedicated
               to empowering excellence in medical education and research. With a
               rich history of serving the community, DVL provides access to a
@@ -330,7 +330,7 @@ const Landinghome = () => {
                 Video
               </button>
             </div>
-            <h1 className="w-11/12 sm:w-[576px] pt-[28px] text-gray-300 light:text-black purple:text-secondary font-Lusitana light:font-SourceSans purple:font-Sora text-5xl purple:text-[32px] font-bold leading-normal tracking-wider capitalize">
+            <h1 className="w-11/12 sm:w-[576px] pt-[28px] text-gray-300 light:text-black purple:text-secondary font-Lusitana light:font-SourceSans purple:font-Sora text-6xl purple:text-[32px] font-bold leading-snug tracking-tight capitalize">
               Watch this video to know more
             </h1>
             <p className="w-11/12 sm:w-[578px] text-white light:text-[#00000099] purple:text-[#696969] text-opacity-60 font-AnekLatin light:font-SourceSans purple:font-Sora text-base font-medium leading-8 pt-4">

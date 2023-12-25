@@ -15,7 +15,7 @@ module.exports = {
         Poppins: ["Poppins", "serif"],
         Sora: ['Sora', "sans-serif"],
         Outfit: ['Outfit', "sans-serif"],
-        SourceSans: ['Source Sans 3', "sans-serif"],
+        SourceSans: ['Source Sans Pro', "sans-serif"],
         FiraSans: ['Fira Sans', "sans-serif"],
     },
     borderColor: ['hover'],
