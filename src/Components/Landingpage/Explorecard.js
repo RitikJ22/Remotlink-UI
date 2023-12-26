@@ -1,10 +1,10 @@
 import React,{useState,useEffect} from "react";
-import card_img from "../images/Rectangle 517.png";
+import card_img from "../../images/Rectangle 517.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 //import { tw } from 'twind';
-import arrow from "../images/bi_arrow-left-short.svg";
+import arrow from "../../images/bi_arrow-left-short.svg";
 
 function CustomPrevArrow(props) {
   const { className, style, onClick } = props;
